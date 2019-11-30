@@ -16,7 +16,7 @@
       </v-btn>
     </v-toolbar>
 
-    <v-navigation-drawer v-model="drawer" class="indigo">
+    <v-navigation-drawer v-model="drawer" class="primary">
       <p>test</p>
     </v-navigation-drawer>
   </nav>
