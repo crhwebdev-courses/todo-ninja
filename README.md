@@ -1,6 +1,6 @@
 # todo-ninja
 
-[Tutorial](https://www.youtube.com/watch?v=Qnj5CsUD0cs&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=8)
+[Tutorial](https://www.youtube.com/watch?v=6Uw8QiC1emA&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=9)
 
 ## Project setup
 
