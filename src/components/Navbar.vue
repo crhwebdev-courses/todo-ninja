@@ -17,7 +17,18 @@
     </v-app-bar>
 
     <v-navigation-drawer app v-model="drawer" class="primary">
-      <p>test</p>
+      <v-list>
+        <v-list-item link>
+          <v-list-item-action>
+            <v-icon class="white--text">mdi-account-card-details</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title class="title white--text"
+              >Dashboard</v-list-item-title
+            >
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
     </v-navigation-drawer>
   </nav>
 </template>
