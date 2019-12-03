@@ -18,14 +18,14 @@
 
     <v-navigation-drawer app v-model="drawer" class="primary">
       <v-list>
-        <v-list-item link>
+        <v-list-item v-for="link in links" :key="link.text" :links="links" link>
           <v-list-item-action>
-            <v-icon class="white--text">mdi-account-card-details</v-icon>
+            <v-icon class="white--text">{{ link.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title class="title white--text"
-              >Dashboard</v-list-item-title
-            >
+            <v-list-item-title class="title white--text">{{
+              link.text
+            }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -37,7 +37,12 @@
 export default {
   data() {
     return {
-      drawer: false
+      drawer: false,
+      links: [
+        { icon: "mdi-logout-variant", text: "Dashboard", route: "/" },
+        { icon: "mdi-folder", text: "My Projects", route: "/projects" },
+        { icon: "mdi-account", text: "Team", route: "/team" }
+      ]
     };
   }
 };
