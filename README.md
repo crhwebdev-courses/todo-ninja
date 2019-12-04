@@ -1,6 +1,18 @@
 # todo-ninja
 
-[Tutorial](https://www.youtube.com/watch?v=DnxplXitv8w&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=10)
+## Tutorial Links
+
+- [Tutorial - Part 1](https://www.youtube.com/watch?v=DnxplXitv8w&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=1)
+- [Tutorial - Part 2](https://www.youtube.com/watch?v=DnxplXitv8w&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=2)
+- [Tutorial - Part 3](https://www.youtube.com/watch?v=DnxplXitv8w&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=3)
+- [Tutorial - Part 4](https://www.youtube.com/watch?v=DnxplXitv8w&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=4)
+- [Tutorial - Part 5](https://www.youtube.com/watch?v=DnxplXitv8w&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=5)
+- [Tutorial - Part 6](https://www.youtube.com/watch?v=DnxplXitv8w&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=6)
+- [Tutorial - Part 7](https://www.youtube.com/watch?v=DnxplXitv8w&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=7)
+- [Tutorial - Part 8](https://www.youtube.com/watch?v=DnxplXitv8w&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=8)
+- [Tutorial - Part 9](https://www.youtube.com/watch?v=DnxplXitv8w&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=9)
+- [Tutorial - Part 10](https://www.youtube.com/watch?v=DnxplXitv8w&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=10)
+- [Tutorial - Part 11](https://www.youtube.com/watch?v=Dwr8ZcJ-Nyk&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=11)
 
 ## Project setup
 
