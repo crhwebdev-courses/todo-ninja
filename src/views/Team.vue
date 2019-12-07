@@ -1,5 +1,5 @@
 <template>
   <div class="team">
-    <h1>This is the Team page</h1>
+    <h1 class="subtitle-1 grey--text">Team</h1>
   </div>
 </template>
