@@ -16,6 +16,7 @@
 - [Tutorial - Part 12](https://www.youtube.com/watch?v=Dwr8ZcJ-Nyk&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=12)
 - [Tutorial - Part 13](https://www.youtube.com/watch?v=0Qv-6fQBFfA&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=13)
 - [Tutorial - Part 14](https://www.youtube.com/watch?v=oAbwZ5Y_wRY&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=14)
+- [Tutorial - Part 15](https://www.youtube.com/watch?v=q8m4Phc70qA&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&index=15)
 
 ## Project setup
 
