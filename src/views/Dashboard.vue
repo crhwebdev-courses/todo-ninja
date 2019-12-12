@@ -3,26 +3,32 @@
     <h1 class="subtitle-1 grey--text">Dashboard</h1>
 
     <v-container class="my-5">
-      <v-card flat class="pa-3">
+      <v-card
+        flat
+        class="pa-3"
+        v-for="project in projects"
+        :projects="projects"
+        :key="project.title"
+      >
         <v-row>
           <v-col cols="12" md="6">
             <div class="caption grey--text">Project Title</div>
-            <div>Create a new website</div>
+            <div>{{ project.title }}</div>
           </v-col>
 
           <v-col cols="6" sm="4" md="2">
             <div class="caption grey--text">Person</div>
-            <div>The Net Ninja</div>
+            <div>{{ project.person }}</div>
           </v-col>
 
           <v-col cols="6" sm="4" md="2">
             <div class="caption grey--text">Due By</div>
-            <div>1st January 2020</div>
+            <div>{{ project.due }}</div>
           </v-col>
 
           <v-col cols="2" sm="4" md="2">
             <div class="caption grey--text">Status</div>
-            <div>ongoing</div>
+            <div>{{ project.status }}</div>
           </v-col>
         </v-row>
       </v-card>
@@ -31,7 +37,7 @@
 </template>
 <script>
 export default {
-  date() {
+  data() {
     return {
       projects: [
         {
