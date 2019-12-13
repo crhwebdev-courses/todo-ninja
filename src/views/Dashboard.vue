@@ -27,7 +27,7 @@
           </v-col>
 
           <v-col cols="2" sm="4" md="2">
-            <div>
+            <div class="text-right">
               <v-chip
                 small
                 :class="`${project.status} white--text caption my-2`"
