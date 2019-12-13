@@ -10,7 +10,7 @@
         :projects="projects"
         :key="project.title"
       >
-        <v-row>
+        <v-row :class="`pa-3 project ${project.status}`">
           <v-col cols="12" md="6">
             <div class="caption grey--text">Project Title</div>
             <div>{{ project.title }}</div>
@@ -77,4 +77,16 @@ export default {
   }
 };
 </script>
-<style></style>
+<style>
+.complete {
+  border-left: 4px solid #3cd1c2;
+}
+
+.ongoing {
+  border-left: 4px solid orange;
+}
+
+.overdue {
+  border-left: 4px solid tomato;
+}
+</style>
