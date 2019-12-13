@@ -5,7 +5,7 @@
     <v-container class="my-5">
       <v-card
         flat
-        class="pa-3"
+        class="pb-3"
         v-for="project in projects"
         :projects="projects"
         :key="project.title"
