@@ -3,6 +3,18 @@
     <h1 class="subtitle-1 grey--text">Dashboard</h1>
 
     <v-container class="my-5">
+      <v-row class="mb-3">
+        <v-btn small text color="grey">
+          <v-icon class="mr-2">mdi-folder</v-icon>
+          <span class="caption text-lowercase">By project name</span>
+        </v-btn>
+
+        <v-btn small text color="grey">
+          <v-icon class="mr-2">mdi-account</v-icon>
+          <span class="caption text-lowercase">By person</span>
+        </v-btn>
+      </v-row>
+
       <v-card
         flat
         class="pb-3"
