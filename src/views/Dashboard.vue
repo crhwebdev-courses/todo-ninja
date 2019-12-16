@@ -4,12 +4,12 @@
 
     <v-container class="my-5">
       <v-row class="mb-3">
-        <v-btn small text color="grey">
+        <v-btn small text color="grey" @click="sortBy('title')">
           <v-icon class="mr-2">mdi-folder</v-icon>
           <span class="caption text-lowercase">By project name</span>
         </v-btn>
 
-        <v-btn small text color="grey">
+        <v-btn small text color="grey" @click="sortBy('person')">
           <v-icon class="mr-2">mdi-account</v-icon>
           <span class="caption text-lowercase">By person</span>
         </v-btn>
@@ -92,6 +92,11 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    sortBy(prop) {
+      this.projects.sort((a, b) => (a[prop] < b[prop] ? -1 : 1));
+    }
   }
 };
 </script>
