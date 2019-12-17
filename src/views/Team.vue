@@ -14,7 +14,17 @@
           :key="person.name"
         >
           <v-card flat class="text-center ma-3">
-            Hello
+            <v-img class="pt-4">Image goes here</v-img>
+            <v-card-text>
+              <div class="subtitle-2">{{ person.name }}</div>
+              <div class="grey--text">{{ person.role }}</div>
+            </v-card-text>
+            <v-card-actions>
+              <v-btn text color="grey">
+                <v-icon small left>mdi-message-text-outline</v-icon>
+                <span>Message</span>
+              </v-btn>
+            </v-card-actions>
           </v-card>
         </v-col>
       </v-row>
