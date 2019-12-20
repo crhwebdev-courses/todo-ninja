@@ -14,7 +14,7 @@
           :key="person.name"
         >
           <v-card flat class="text-center ma-3">
-            <v-avatar class="pt-4">
+            <v-avatar class="pt-4 grey lighten-2" size="100">
               <img :src="person.avatar" alt="" />
             </v-avatar>
             <v-card-text>
